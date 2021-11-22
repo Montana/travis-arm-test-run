@@ -1,0 +1,9 @@
+dist: focal
+language: generic
+matrix:
+  fast_finish: true
+  include:
+    - name: ARM Equinix Metal Test (Arm64 v8 Build.)
+      os: linux
+      dist: focal
+      arch: arm64 # (Armv8 Equinix Metal)
